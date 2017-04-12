@@ -1,5 +1,4 @@
 About TF
-TF is 
 
 How to use
 To run this program you will need ruby 2.3.0p0 and the latest version of minitest.
@@ -64,8 +63,11 @@ Don't worry, just run this command again ruby tf_score.rb and try it again, payi
 More about TF
 
 A word in TF consists of a string of characters devoid of white space. So TF will only count words that are singletones, and have no added punctuation, like a comma, hyphen or apostrophe, or additional characters.
+
 Example 1:
     A common word search using my Atom editor will show that the word "sea" appears 16 times in mobydick-chapter1.txt and 17 times if I search the word in Chrome. Chrome and my Atom editor detect words that have sea in them like seas, sea-captan or sea-sick. In TF those words will not be counted as sea.
+
+
 
 Example 2:
     If I search for queequeg in Chrome I will find no such word, zero instances of the word queequeg in any documents. But my Atom editor detects queequeg four times in mobydick-chapter3.txt, 13 in mobydick-chapter4.txt and four in mobydick-chapter5.txt. TF detects that queequeg is found 11 times in mobydick-chapter4.txt. From what I could gather my Chrome word search matches the exact word even within other words queequeg can't be found but Queequeg can be found. Atom checks for both uppercase and lower case and counts those words and ignores punctuation and detects words embedded in other words. TF converts all words to downcase and removes all punctuation and does not detect words embedded in other words. Each method returns different results.
