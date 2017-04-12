@@ -6,7 +6,7 @@ To run this program you will need ruby 2.3.0p0 and the latest version of minites
 Clone or Download this Repo.
 
 In your command line cd into tf. If there are any additional documents you want to use, add them to the tf directory.
-The best files to use are txt files as these have been tested to work well with program.
+The best files to use are txt files as these have been tested to work well with this program.
 
 Inside the tf directory run the command 
 
@@ -17,7 +17,9 @@ ruby tf_score.rb
 
 
 
+
 This will appear:
+```
 ****************************************************************************************************
 Find the TF score for a word or list of words in a document or list of documents!
 Example words: queequeg whale sea
@@ -30,7 +32,7 @@ Type list of words here:
  queequeg whale sea
 Type list of documents here:
 mobydick-chapter1.txt mobydick-chapter2.txt mobydick-chapter3.txt mobydick-chapter4.txt mobydick-chapter5.txt
-
+```
 After hitting enter the word, TF score and document, the word is found in will appear.
 
 TF socre:11
