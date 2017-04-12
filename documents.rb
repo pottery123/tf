@@ -36,5 +36,3 @@ class Documents
 
 
 end
-
-#d = Documents.new(['words.rb', 'words.txt'])

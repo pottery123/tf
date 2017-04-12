@@ -77,17 +77,6 @@ class TermFrequency
         #    puts d.full_documents([texts[2][0]])
           i+=1
           end
+        #end
       end
 end
-
-
-#t = TermFrequency.new(["queequeg", "whale", "sea"],
-                  #   ["mobydick-chapter1.txt",
-                  #     "mobydick-chapter2.txt"] )
-
-#t.divided_documents_are_scored
-#t.divide_documents
-#t.tf_score
-#t.chunk_scores_and_names_of_documents
-#t.more_calculations_finding_the_highest_words
- #t.return_full_documents
