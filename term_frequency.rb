@@ -62,6 +62,7 @@ class TermFrequency
        return array
   end
   #Returns the TF socre for each document, the document and the word
+  #the commented out lines below remove the actual document for visual purposes.
   def return_full_documents
       d = Documents.new(@documents)
       i = 0
