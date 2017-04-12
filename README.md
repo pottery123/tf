@@ -10,6 +10,13 @@ The best files to use are txt files as these have been tested to work well with 
 
 Inside the tf directory run the command ruby tf_score.rb
 
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
+ <a href="/donate">DONATE</a>
+ </div>
+
+
+
+
 This will appear:
 ****************************************************************************************************
 Find the TF score for a word or list of words in a document or list of documents!
