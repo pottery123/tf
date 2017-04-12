@@ -8,9 +8,12 @@ Clone or Download this Repo.
 In your command line cd into tf. If there are any additional documents you want to use, add them to the tf directory.
 The best files to use are txt files as these have been tested to work well with program.
 
-Inside the tf directory run the command ruby tf_score.rb
+Inside the tf directory run the command 
 
-"And here's to you, <span style="background-color:green">Mrs. Robinson</span>, Jesus loves you more than you will know."
+```
+ruby tf_score.rb
+```
+
 
 
 
