@@ -4,7 +4,7 @@
 To run this program you will need 
 
 ```
-ruby 2.3.0p0,  Minitest.
+ruby 2.3.0p0  minitest.
 ```
 
 Clone or Download this Repo.
