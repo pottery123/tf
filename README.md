@@ -1,4 +1,4 @@
-About TF
+# TF
 
 How to use
 To run this program you will need ruby 2.3.0p0 and the latest version of minitest.
@@ -35,6 +35,7 @@ mobydick-chapter1.txt mobydick-chapter2.txt mobydick-chapter3.txt mobydick-chapt
 ```
 After hitting enter the word, TF score and document, the word is found in will appear.
 ```
+Word:queequeg
 TF socre:11
 Document:mobydick-chapter4.txt
 Document:
@@ -62,9 +63,8 @@ During this process an error might appear.
 	from /Users/sakne/whiteboarding/tf/term_frequency.rb:59:in `divided_documents_are_scored'
 	from /Users/sakne/whiteboarding/tf/term_frequency.rb:68:in `return_full_documents'
 	from tf_score.rb:19:in `<main>'
-
-```
-Don't worry, just run this command again ```ruby tf_score.rb``` and try it again, paying careful attention to how you type in the  text document names, make sure they are correct.
+        ```
+Don't worry, just run this command again ruby tf_score.rb and try it again, paying careful attention to how you type in the  text document names, make sure they are correct.
 
 
 
