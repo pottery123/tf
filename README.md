@@ -1,10 +1,10 @@
 # TF
 
-How to use
+
 To run this program you will need 
 
 ```
-ruby 2.3.0p0 and the latest version of minitest.
+ruby 2.3.0p0,  Minitest.
 ```
 
 Clone or Download this Repo.
