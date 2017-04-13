@@ -77,7 +77,7 @@ Don't worry, just run this command again ruby tf_score.rb and try it again, payi
 
 
 
-More about TF
+## More about TF
 
 
 A word in TF consists of a string of characters devoid of white space. So TF will only count words that are singletones, and have no added punctuation, like a comma, hyphen or apostrophe, or additional characters.
