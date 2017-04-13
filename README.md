@@ -75,9 +75,10 @@ Don't worry, just run this command again ruby tf_score.rb and try it again, payi
 
 
 More about TF
-```
+
+
 A word in TF consists of a string of characters devoid of white space. So TF will only count words that are singletones, and have no added punctuation, like a comma, hyphen or apostrophe, or additional characters.
-```
+
 
 Example 1:
 A common word search using my Atom editor will show that the word "sea" appears 16 times in mobydick-chapter1.txt and 17 times if I search the word in Chrome. Chrome and my Atom editor detect words that have sea in them like seas, sea-captan or sea-sick. In TF those words will not be counted as sea.
