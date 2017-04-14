@@ -1,4 +1,4 @@
-class Documents
+class Documents #should probably change to Document instead of Documents
   attr_accessor :documents
   def initialize(documents=docs)
     @documents = documents
